@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      /* set the appearance before first paint (no flash of the wrong theme); see src/theme.tsx */
+      (function () { var m = null; try { m = localStorage.getItem('ci-theme'); } catch (e) {}
+        if (m !== 'light' && m !== 'dark') { try { m = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; } catch (e) { m = 'light'; } }
+        document.documentElement.dataset.theme = m; document.documentElement.style.colorScheme = m; })();
+    </script>
+    <title>Country Intelligence</title><meta name="robots" content="noindex,nofollow,noarchive"><meta name="googlebot" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23172334'/%3E%3Cpath d='M9 21l5-6 4 3 5-8' stroke='%23EAF3FF' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+    <script>window.CI_READER={"base": "/nc8m-0nkf-bu39-rtg7", "snapshot": "2026-11-21"};</script><script src="/nc8m-0nkf-bu39-rtg7/reader.js"></script><script type="module" crossorigin src="/nc8m-0nkf-bu39-rtg7/assets/index-CetZDxVL.js"></script>
+    <link rel="stylesheet" crossorigin href="/nc8m-0nkf-bu39-rtg7/assets/index-B18ikIrY.css">
+  </head>
+  <body class="ed">
+    <div id="root"></div>
+  </body>
+</html>
